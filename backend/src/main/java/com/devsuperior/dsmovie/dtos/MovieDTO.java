@@ -1,12 +1,8 @@
 package com.devsuperior.dsmovie.dtos;
 
-import java.io.Serializable;
-
 import com.devsuperior.dsmovie.entities.Movie;
 
-public class MovieDTO implements Serializable {
-	
-	private static final long serialVersionUID = 1L;
+public class MovieDTO {
 	
 	private Long id;
 	private String title;
