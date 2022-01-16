@@ -7,7 +7,7 @@ import Pagination from 'components/Pagination';
 import MovieCard from 'components/MovieCard';
 
 import { BASE_URL } from '../../utils/requests';
-import { Movie, MoviePage } from 'types/movie';
+import { MoviePage } from 'types/movie';
 
 function Listing() {
   const [pageNumber, setPageNumber] = useState<number>(0);
