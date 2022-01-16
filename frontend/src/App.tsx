@@ -4,7 +4,7 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Navbar from "components/Navbar";
+//import Navbar from "components/Navbar";
 import Listing from "pages/Listing";
 import Form from "pages/Form";
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
+      {/*<Navbar />*/}
 
       <Routes>
         <Route 
